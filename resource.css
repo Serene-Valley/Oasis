@@ -1,0 +1,37 @@
+body{
+background:rgb(28, 28,28) ;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,59,0,1) 72%, rgba(38,92,75,1) 100%);
+}
+a {
+  text-decoration: none;
+  font-family: "Moulpali";
+  color: white;
+}
+.site-header { 
+display:grid;
+  grid-template-columns:3fr 2fr;
+  text-align: center;
+  position: sticky; top: 0;
+  font-family: "Moulpali";
+}
+
+.site-identity h1 {
+  font-size: 18px;
+  display: flex;
+  margin-top: 25px;
+}
+
+.site-identity img {
+  max-width: 300px;
+  margin-top: -135px;
+  margin-right: -80px;
+  height:300px;
+
+}
+
+
+.site-navigation ul, li {
+  display:flex;
+  justify-content:space-evenly;
+}
+
