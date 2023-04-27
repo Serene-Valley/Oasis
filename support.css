@@ -5,21 +5,32 @@ body {
 a {
   text-decoration: none;
   font-family: "Moulpali";
-  color: rgb(236, 255, 237);
+  color: white;
+ 
 }
 
-.navbar-nav{
-  display: flex
+.site-header {
+  display:grid;
+  /*position: sticky; top: 0;*/
+  font-family: "Moulpali";
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,59,0,1) 72%, rgba(38,92,75,1) 100%);
+  height: 100px;
+  
+}
+.site-identity h1 {
+  font-size: 18px;
+  display: flex;
+  margin-top: 25px;
+}
+/*#logo {*/*/
+/*  width: 160px;*/
+/*  height: 100px;*/
+/*}*/
+.site-navigation ul, .site-navigation li {
+  display: none;
 }
 
-nav img{
-   height: 200px;
-   text-align: center;
-}
-
-.navbar {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,59,0,1) 72%, rgba(38,92,75,1) 100%);
-}
 
 main {
   display: flex;
