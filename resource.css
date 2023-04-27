@@ -13,7 +13,7 @@ a {
   color: rgb(236,255,237);
 }
 .navbar-nav{
-  display: flexz
+  display: flex
 }
 nav{
   height: 100px;
@@ -64,7 +64,7 @@ background:linear-gradient(90deg, rgba(88,154,141,1) 0%, rgba(0,117,102,1) 72%, 
   display:grid;
   justify-content:center;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   
 }
 .circle figure{
@@ -79,8 +79,8 @@ background:linear-gradient(90deg, rgba(88,154,141,1) 0%, rgba(0,117,102,1) 72%, 
 }
 
 .flickity-page-dots .dot {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   opacity: 1;
   background: transparent;
   border: 2px solid white;
@@ -165,5 +165,34 @@ background-color: rgb(236,255,237);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 
+}
+ul {
+  list-style-type: none;
+}
+@media screen and (max-width: 600px){
+  .labelc{
+    height: 75px;
+  }
+  .get-involved{
+    font-size:15px;
+  }
+  .titles{
+    font-size: 30px;
+  }
+  .gallery-cell{
+  grid-template-rows:2fr 2fr;
+   grid-template-areas:
+  " word word"
+  "image image  ";
+ 
+
+  }
+.circle{
+  height:400px;
+  width:400px;
+}
+.space{
+  width: 100px;
+}
 }
 
