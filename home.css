@@ -4,11 +4,7 @@ body {
   font-family: "Moulpali";
   text-align: center;
 }
-a {
-  text-decoration: none;
-  font-family: "Moulpali";
-  color: rgb(236,255,237);
-}
+
 .site-header {
   display:grid;
   /*position: sticky; top: 0;*/
@@ -30,12 +26,7 @@ a {
 .site-navigation ul, .site-navigation li {
   display: none;
 }
-.fa-bars {
-  font-size: 30px;
-  text-align: right;
-  margin-top: 20px;
-  margin-right: 5px;
-}
+
 
 footer {
   font-family: "Moulpali";
@@ -122,11 +113,12 @@ h1, h2, h3, h4, h5, h6 {
 article, aside {
   width: 90%;
 }
-/*a {*/
-/*  text-decoration: none;*/
-/*  font-family: "Moulpali";*/
-/*  color: rgb(236,255,237);*/
-/*}*/
+a {
+  text-decoration: none;
+  font-family: "Moulpali";
+  color: rgb(236,255,237);
+}
+
 @media(min-width:768px) {
   .site-navigation ul, li {
     display:flex;
