@@ -8,23 +8,48 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moulpali">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moul">
-    <link rel="stylesheet" href="home.css" type="text/css" />
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="home.css" type="text/css" />
     <title>Oasis - We are here to help</title>
 </head>
 <body>
-    <header class="site-header">
-        <div class="site-identity">
-            <h1> <a href="#"><img src="images/ASIS.png" alt="Site Name" /></a>
-            </h1>
-        </div>
-        <nav class="site-navigation">
-            <ul class="nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Get Involved!</a></li>
+    
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img id="logo" src="home-images/new-logo.png" alt="logo" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Get Involved</a>
+              </li>
             </ul>
-            <i class="fa-solid fa-bars"></i>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     
     <main>
@@ -36,13 +61,13 @@
             </section>
             <div class="main-carousel" data-flickity= '{ "cellAlign": "left", "contain": true }'>
                 <div class="carousel-cell">
-                    <img src="images/orange-container-home.jpeg">
+                    <img src="home-images/orange-container-home.jpeg">
                 </div>
                 <div class="carousel-cell">
-                    <img src="images/mentorship.jpeg">
+                    <img src="home-images/mentorship.jpeg">
                 </div>
                 <div class="carousel-cell">
-                    <img src="images/shk-sign.jpeg">
+                    <img src="home-images/shk-sign.jpeg">
                 </div>
                 
             </div>
@@ -81,7 +106,7 @@
         <aside id="founders">
             <h2>Connect with Our Founders</h2>
             <section class="founder">
-                <img src="images/angie.jpg">
+                <img src="home-images/angie.jpg">
                 <div class="founder-info">
                     <div class="founder-name">
                         <h4>Angie Grullon</h4>
@@ -91,7 +116,7 @@
                 </div>
             </section>
             <section class="founder">
-                <img src="images/sabryna.jpg">
+                <img src="home-images/sabryna.jpg">
                 <div class="founder-info">
                     <div class="founder-name">
                         <h4>Sabryna Davis</h4>
@@ -101,7 +126,7 @@
                 </div>
             </section>
             <section class="founder">
-                <img src="images/kayla.jpg">
+                <img src="home-images/kayla.jpg">
                 <div class="founder-info">
                     <div class="founder-name">
                         <h4>Kayla Campbell</h4>
@@ -118,5 +143,10 @@
         </p>
     </footer>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
