@@ -147,7 +147,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 120px;
 }
 
 #subheading {
@@ -155,6 +155,7 @@ main {
   font-size: 36px;
   color: white;
   margin-right: 15px;
+  margin-top:30px;
 }
 
 #submit {
@@ -163,7 +164,7 @@ main {
   border-radius: 30px;
   text-align: center;
   margin-left: 220px;
-
+  margin-
 }
 
 .submit-button {
@@ -183,7 +184,7 @@ main {
   width: 400px;
   padding-bottom: 10px;
   margin-left: 375px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .submit-button:hover {
@@ -252,20 +253,47 @@ main {
   margin-bottom: 60px;
 }
 
-
-
 #Input-Heading-Box{
-width:471px;
-height:136px;
-border-radius:40px;
+width:205px;
+height:85px;
+border-radius:24px;
+font-size: 20px;
+padding-top:20px;
+margin-right:200px;
+margin-left:190px;
 }
 
 #Input-Box{
-  height:330px;
-  width: 315px;
-  border-radius:40px;
+  height:319px;
+  width: 330px;
+  border-radius:41px;
+  margin-left:130px;
 }
 
+#subheading{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:16px;
+  margin-left:10px;
+}
+
+#submit{
+width: 285px;
+height:43px;
+border-radius: 30px;
+margin-left:25px;
+}
+
+.submit-button{
+  font-size:14px;
+  margin-bottom:12px;
+  width:213px;
+  height:26px;
+  border-radius:24px;
+  margin-left:65px;
+  margin-top:30px;
+  margin-bottom:40px;
+  }
 
 
 
