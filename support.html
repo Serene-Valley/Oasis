@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="support.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moulpali">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moul">
-    <title>Oasis Support Page</title>
+    <title>Oasis - Support</title>
 </head>
 
 <body>
    <header id="header">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html"
+          <a class="navbar-brand" href="home.html"
             ><img id="logo" src="new-logo.png" alt="logo" srcset=""
           /></a>
           <button
@@ -35,13 +35,13 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link nav-hover" href="#">About</a>
+                <a class="nav-link nav-hover" href="home.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-hover" href="#">Resources</a>
+                <a class="nav-link nav-hover" href="resource.html">Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-hover" href="#">Get Involved</a>
+                <a class="nav-link nav-hover" href="support.html">Get Involved</a>
               </li>
             </ul>
           </div>
@@ -64,9 +64,9 @@
                     Donations allow for us to continue to provide the resources we provide at Oasis. If you'd like to help fund Oasis:
                 </p>
                 <div id="button-box">
-                    <button type:="button" class="get-involved">
+                    <a href="#Input-Section"><button type:="button" class="get-involved">
                         GET INVOLVED
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
@@ -80,9 +80,9 @@
                     If you are a mental health professional and would like to offer your services at Oasis:
                 </p>
                 <div id="button-box">
-                    <button type="button" class="get-involved">
+                    <a href="#Input-Section"><button type="button" class="get-involved">
                         GET INVOLVED
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
@@ -96,9 +96,9 @@
                      If you would like to share your time, skills, and energy to support Oasis:
                 </p>
                 <div id="button-box">
-                    <button type="button" class="get-involved">
+                    <a href="#Input-Section"><button type="button" class="get-involved">
                         GET INVOLVED
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
@@ -112,15 +112,15 @@
                     If you are an educator and would like to teach K-12 or adult learners:
                 </p>
                 <div id="button-box">
-                    <button type="button" class="get-involved">
+                    <a href="#Input-Section"><button type="button" class="get-involved">
                         GET INVOLVED
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
         </div>
 
-        <div class="Input-Section">
+        <form class="Input-Section" id="Input-Section">
             <div id="Input-Heading-Box">
                 <p>
                     I WANT TO GET INVOLVED
@@ -135,11 +135,11 @@
                     HOW WOULD YOU LIKE TO GET INVOLVED?
                 </p>
                 <input name="Support-Type" id="submit" type="text" placeholder="Enter Answer Here" required="">
-                <button type="button" class="submit-button">
+                <button type="submit" class="submit-button">
                     SUBMIT
                 </button>
             </div>
-        </div>
+        </form>
     </main>
 
     <footer class="site-footer">

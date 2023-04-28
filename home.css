@@ -63,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #what-is {
   background: #2C5741;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .carousel-cell img {
   height: auto;
@@ -105,14 +107,22 @@ h1, h2, h3, h4, h5, h6 {
 .founder-name h4{
   margin-top: 2px;
   margin-bottom: 4px;
+  font-size: 15px;
 }
 .fa-brands {
   font-size: 40px;
   margin: 0px 6px;
 }
+.fa-brands:hover {
+  color:white;
+}
 article, aside {
   width: 90%;
+  padding-top: 30px;
 }
+#founders h2 {
+    margin-top: 30px;
+  }
 a {
   text-decoration: none;
   font-family: "Moulpali";

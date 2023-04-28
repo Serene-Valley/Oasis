@@ -26,6 +26,10 @@ nav img{
    height: 200px;
    text-align: center;
 }
+#logo {
+  width: 160px;
+  height: 80px;
+}
 main{
  
 position:static;
@@ -47,6 +51,11 @@ position:static;
   "image image image word word";
  
  
+}
+.info {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 30px;
 }
 
 .circle:hover{
