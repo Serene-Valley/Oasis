@@ -1,0 +1,164 @@
+body {
+  background: linear-gradient(71.63deg, #1C1C1C -17.17%, #003B00 80.68%, #265C4B 118.39%);
+  color: white;
+  font-family: "Moulpali";
+  text-align: center;
+}
+
+.site-header {
+  display:grid;
+  /*position: sticky; top: 0;*/
+  font-family: "Moulpali";
+  z-index: 2;
+  background: linear-gradient(71.63deg, #1C1C1C -17.17%, #003B00 80.68%, #265C4B 118.39%);
+  height: 100px;
+  
+}
+.site-identity h1 {
+  font-size: 18px;
+  display: flex;
+  margin-top: 25px;
+}
+#logo {
+  width: 160px;
+  height: 80px;
+}
+.site-navigation ul, .site-navigation li {
+  display: none;
+}
+
+
+footer {
+  font-family: "Moulpali";
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+}
+#copyright-text{
+  font-size: 15px;
+}
+.founder {
+  margin-bottom: 60px;
+}
+.founder:nth-of-type(3) {
+  margin-bottom: 10px;
+}
+.founder img{
+  border-radius: 151px;
+  height: 164px;
+  width: 164px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+iframe {
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Moul";
+}
+#what-is {
+  background: #2C5741;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.carousel-cell img {
+  height: auto;
+  max-width: 100%;
+}
+.carousel-cell {
+  height: 200px;
+  width: 100%;
+}
+.main-carousel {
+  margin-bottom: 50px;
+}
+.fa-icon i {
+  font-size: 25px;
+}
+#buttons button{
+  margin: 9px 18px;
+  border-radius: 30px;
+  background: #589A8D;
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: Moulpali;
+  outline: none;
+  background-color: #589A8D;
+  border-radius: 30px;
+  box-shadow: 0 7px #999;
+  
+}
+#solution {
+  margin-bottom: 40px;
+}
+#founders {
+  background: #2C5741;
+  
+  }
+.founder-name h4{
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+.fa-brands {
+  font-size: 40px;
+  margin: 0px 6px;
+}
+.fa-brands:hover {
+  color:white;
+}
+article, aside {
+  width: 90%;
+  padding-top: 30px;
+}
+#founders h2 {
+    margin-top: 30px;
+  }
+a {
+  text-decoration: none;
+  font-family: "Moulpali";
+  color: rgb(236,255,237);
+}
+
+@media(min-width:768px) {
+  .site-navigation ul, li {
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .site-header {
+    text-align: center;
+  }
+  .fa-bars {
+    display:none;
+    
+  }
+  #founders {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 
+    'header header header'
+    'angie sabryna kayla';
+    padding: 0px 30px;
+  }
+  #founders h2 {
+    grid-area: header;
+  }
+  #founders:nth-of-child(2) {
+    grid-area: angie;
+  }
+   #founders:nth-of-child(3) {
+    grid-area: sabryna;
+  }
+   #founders:nth-of-child(4) {
+    grid-area: kayla;
+  }
+}
