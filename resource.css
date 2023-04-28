@@ -169,6 +169,15 @@ background-color: rgb(236,255,237);
 ul {
   list-style-type: none;
 }
+ .site-footer{
+    font-family: "Moulpali";
+    display: flex;
+    color: rgb(236,255,237);
+    justify-content: center;
+}
+#copyright-text{
+  font-size: 36px;
+} 
 @media screen and (max-width: 600px){
   .labelc{
     height: 75px;
@@ -193,6 +202,9 @@ ul {
 }
 .space{
   width: 100px;
+}
+.site-footer{
+  font-size:20px;
 }
 }
 
